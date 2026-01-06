@@ -1,0 +1,17 @@
+body{
+    /* 
+        La función linear-gradient es utlizada para poder tres colores de tal modo que sean seguidos, en el primer atributo se define la dirección de los colores
+            - to right -> colores en orden horizontal
+            - to bottom -> colores en orden verticales
+            - to deg -> colores en orden diagonal "se debe poner un numero en el que tendra la inclinación ejem: 45deg"
+    */
+    background: linear-gradient(to right, #3AA7D6,#A32EB3); 
+}
+
+.align{
+    text-align: justify;
+}
+
+.container_per{
+    border: solid 2px;
+}
