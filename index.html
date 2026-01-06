@@ -10,61 +10,75 @@
 </head>
 <body class="body">
     <header>
-        <nav class="navbar bg-dark border-bottom boder-body">
-            <ul><a href="./index.html" class="text-decoration-none mx-3">Inicio</a></ul>
-            <ul><a href="./vinculos/formacion.html" class="text-decoration-none mx-3">Formación</a></ul>
-            <ul><a href="./vinculos/intereses.html" class="text-decoration-none mx-3">Intereses</a></ul>
-            <ul><a href="./vinculos/contacto.html" class="text-decoration-none mx-5">Contacto</a></ul>
-        </nav>
+        <ul class="nav nav-pills nav-fill bg-dark border-bottom boder-body">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="./vinculos/formacion.html" class="nav-link">Formación</a>
+            </li>
+            <li class="nav-item">
+                <a href="./vinculos/intereses.html" class="nav-link">Intereses</a>
+            </li>
+            <li class="nav-item">
+                <a href="./vinculos/contacto.html" class="nav-link">Contacto</a>
+            </li>
+        </ul>
     </header>
+    <body>
         <h1>Ing. Daniel Armando Ciendúa Ricaurte</h1>
-        <h2>Descripción</h2>
+        <h2 class="subtitles">Descripción</h2>
         <!-- Una breve descripción personal-->
-        <p class="align">
+        <p class="align-text-information">
             Mucho gusto, me presento mi nombre es Daniel Armando Ciendúa Ricaurte, soy de Yopal - Casanare, me considero una persona participativa y activa mediante las actividades y restos asignados;
             Durante el aprendizaje de mis labores academicas me considere y centre ser una persona activa y analitica respecto a los trabajos para un mejor desempeño, ya que en ciertos casos los pendientes
             se dirigian mas en equipo mas que en desarrollo individual. Para este apartado sere breve con mis gustos y actividades diarias en mi día a día.
         </p>
         <!-- Descripción referente a los conocimientos y manejo de implementos-->
-        <p class="align">
+        <p class="align-text-information">
             Soy ingeniero y tecnico en sistemas basado durante el desarrollo de mis aprendizajes y en las cualidades se encuentran como el 
             desarrollo y analisis de requirimientos; en los requirimientos de primer orden para la objetividad en los analisis se mantienen las estructuras ideales 
             acordes de los problemas principales.
         </p>
-        <section class="container container_per text-center">
-            <p>Para el manejo de las ideas subjetivas y referentes a los problemas organizadas podrian ser:</p>
-            <span class="row aling-items-start fw-bold container_per">
-                <div class="col">
-                    <p>Socialización</p>
-                </div>
-                <div class="col">
-                    <p>Consulta:</p>
-                </div>
-                <div class="col">
-                    <p>Restricción:</p>
-                </div>
-                <div class="col">
-                    <p>Objetivos:</p>
-                </div>
-            </span>
-            <span class="row ">
-                <div class="col">
-                    <p class="align">Planificar, estructurar, diseñar para el conocimiento entre el grupo de busqueda y la socialización del problema en el que se esta planteando.</p>
-                </div>
-                <div class="col">
-                    <p class="align">Mediante la investigación de la información se recomienda realizar la consulta por medios diferentes y en lo posible de referencias confiables para la determinación de varios indices favorables.</p>
-                </div>
-                <div class="col">
-                    <p class="align">Identificaciones, parametrizaciones, clasificaciones en las que el problema se va decifrando relativamente con la investigación </p>
-                </div>
-                <div class="col">
-                    <p class="align">Definiciones, planificaciones, estructuras que se van definiendo en el transcurso de solvencia con el grupo</p>
-                </div>
-            </span>
-        </section>
+        <p class="align-formation" style="color: white;">Para el manejo de las ideas subjetivas y referentes a los problemas organizadas podrian ser:</p>
+        <table class="table table-dark table-striped-columns">
+            <thead class="align-formation">
+                <tr>
+                    <th scope="col">Socialización:</th>
+                    <th scope="col">Consulta:</th>
+                    <th scope="col">Restricción:</th>
+                    <th scope="col">Objetivos:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="align">Planificar, estructurar, diseñar para el conocimiento entre el grupo de busqueda y la socialización del problema en el que se esta planteando.</p>
+                    </td>
+                    <td>
+                        <p class="align">Mediante la investigación de la información se recomienda realizar la consulta por medios diferentes y en lo posible de referencias confiables para la determinación de varios indices favorables.</p>
+                    </td>
+                    <td>
+                        <p class="align">Identificaciones, parametrizaciones, clasificaciones en las que el problema se va decifrando relativamente con la investigación </p>
+                    </td>
+                    <td>
+                        <p class="align">Definiciones, planificaciones, estructuras que se van definiendo en el transcurso de solvencia con el grupo</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <br>
-    <footer class="footer px-3 m">
-        <p>Derechos reservados por &copy; Daniel Armando Ciendúa</p>
+        <table>
+            <thead class="align-content">
+                <th><button id="information-practice">Información de practica</button></th> <!-- Información aplicada en carrusel, demas información de ser necesario-->
+                <th><button id="information-exercise">Información de ejercicio</button></th> <!-- Aplicar un ejercició de JS de calculos matematicos -->
+                <th><button id="information-sound">Información musical</button></th><!-- Aplicar un reproductor multimedia -->
+            </thead>
+        </table>
+        <p id="information-aditional"></p>
+    </body>
+    <footer class="footer px-3">
+        <p>Derechos reservados por &copy; Daniel Armando Ciendúa Ricaurte</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
