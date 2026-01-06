@@ -15,3 +15,8 @@ body{
 .container_per{
     border: solid 2px;
 }
+
+.footer{
+    background-color: azure;
+    text-align: center;
+}
