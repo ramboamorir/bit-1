@@ -8,7 +8,11 @@
     background: linear-gradient(to right, #3AA7D6,#A32EB3); 
 }
 .background-formation{
-    background: linear-gradient(to right, #3F24B5,#E063B1);
+    background: linear-gradient(to bottom, #3F24B5,#E063B1);
+}
+
+.background-interested{
+    background: linear-gradient(to right, #6BC780, #EBB881, #81D1EB);
 }
 
 .align{
