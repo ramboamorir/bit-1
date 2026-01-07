@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
     const buttonPractice =document.getElementById("information-practice")
-    buttonPractice.addEventListener("click",() => {
+    buttonPractice.addEventListener('click', ()=>{
         buttonPractice.disabled = true; // Función disabled bloquea o inhabilita
         const informationAditional = document.getElementById('information-aditional')
         informationAditional.innerHTML += `
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const informationAditional = document.getElementById('information-aditional')
     let counterButton=0;
 
-    buttonExercise.addEventListener("click",() => {
+    buttonExercise.addEventListener('click',() => {
         if (counterButton === 0) {
             let first_number 
             let second_number
@@ -101,6 +101,24 @@ document.addEventListener("DOMContentLoaded",()=>{
         `;
         buttonSound.disabled = true;
     })
+
+    //Sistema de recomendaciones para Contactos
+    const nameUser = document.getElementById('name-user');
+    const cityUser = document.getElementById('city-user');
+    const ageUser = document.getElementById('age-user');
+    const buttonSubmit = document.getElementById('submit');
+
+
+        buttonSubmit.addEventListener('click', ()=>{
+            alert(`Muchas gracias por tus aportes, "${nameUser}", de la ciudad, "${cityUser}", para identificar en adaptabilidad para aquellas personas con intervalo de edad, "${ageUser}"`)
+            clearForms;
+        })
+
+    function clearForms(){
+        nameUser.textContent = "";
+        cityUser.textContent = "";
+        ageUser.textContent = "";
+    }
 })
 
 console.log('Estoy listo!');

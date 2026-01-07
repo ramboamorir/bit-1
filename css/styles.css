@@ -7,12 +7,17 @@
     */
     background: linear-gradient(to right, #3AA7D6,#A32EB3); 
 }
+
 .background-formation{
     background: linear-gradient(to bottom, #3F24B5,#E063B1);
 }
 
 .background-interested{
     background: linear-gradient(to right, #6BC780, #EBB881, #81D1EB);
+}
+
+.background-pqrs{
+    background: linear-gradient(to bottom, #B6EB81, #AD81EB, #EB5774)
 }
 
 .align{
@@ -49,3 +54,13 @@
     background-color: azure;
     text-align: center;
 }
+
+/*footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}*/
