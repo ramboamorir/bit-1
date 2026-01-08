@@ -50,17 +50,17 @@
     border: solid 2px;
 }
 
-.footer{
+/*.footer{
     background-color: azure;
     text-align: center;
-}
+}*/
 
-/*footer {
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-}*/
+    padding: 4px;
+}

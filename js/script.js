@@ -101,24 +101,24 @@ document.addEventListener("DOMContentLoaded",()=>{
         `;
         buttonSound.disabled = true;
     })
-
-    //Sistema de recomendaciones para Contactos
-    const nameUser = document.getElementById('name-user');
-    const cityUser = document.getElementById('city-user');
-    const ageUser = document.getElementById('age-user');
-    const buttonSubmit = document.getElementById('submit');
-
-
-        buttonSubmit.addEventListener('click', ()=>{
-            alert(`Muchas gracias por tus aportes, "${nameUser}", de la ciudad, "${cityUser}", para identificar en adaptabilidad para aquellas personas con intervalo de edad, "${ageUser}"`)
-            clearForms;
-        })
-
-    function clearForms(){
-        nameUser.textContent = "";
-        cityUser.textContent = "";
-        ageUser.textContent = "";
-    }
 })
+
+//Sistema de recomendaciones para Contactos
+const nameUser = document.getElementById('name-user');
+const cityUser = document.getElementById('city-user');
+const ageUser = document.getElementById('age-user');
+const buttonSubmit = document.getElementById('submit');
+
+
+buttonSubmit.addEventListener('click', ()=>{
+    alert(`Muchas gracias por tus aportes, "${nameUser}", de la ciudad, "${cityUser}", para identificar en adaptabilidad para aquellas personas con intervalo de edad, "${ageUser}"`)
+    clearForms;
+})
+
+function clearForms(){
+    nameUser.textContent = "";
+    cityUser.textContent = "";
+    ageUser.textContent = "";
+}
 
 console.log('Estoy listo!');
