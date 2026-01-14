@@ -50,6 +50,41 @@
     border: solid 2px;
 }
 
+/* Responsive */
+.container {
+  width: 80%;
+  margin: auto;
+  background: lightblue;
+  padding: 20px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    background: lightgreen;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    background: lightcoral;
+  }
+}
+
+.boxes {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+  }
+}
+
 /*.footer{
     background-color: azure;
     text-align: center;
